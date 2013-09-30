@@ -1,0 +1,10 @@
+---
+galaxy_info:
+  author: James Cammarata
+  company: AnsibleWorks, Inc.
+  license: CC-BY
+dependencies:
+  - { role: wheel, n: 1, testing: 'IN_DEP' }
+  - { role: wheel, n: 2 }
+  - { role: wheel, n: 3 }
+  - { role: wheel, n: 4, foo: boo }
