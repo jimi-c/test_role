@@ -5,11 +5,14 @@ galaxy_info:
   license: CC-BY
   min_ansible_version: 1.4
   platforms:
-  - Fedora:
+  - name: Fedora
+    versions:
     - all
-  - EL:
+  - name: EL
+    versions:
     - 6
-  - Ubuntu:
+  - name: Ubuntu
+    versions:
     - oneiric
     - precise
     - quantal
