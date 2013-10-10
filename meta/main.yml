@@ -4,6 +4,19 @@ galaxy_info:
   company: AnsibleWorks, Inc.
   license: CC-BY
   min_ansible_version: 1.4
+  platforms:
+  - Fedora:
+    - all
+  - EL:
+    - 6
+  - Ubuntu:
+    - oneiric
+    - precise
+    - quantal
+    - raring
+  tags:
+  - web
+  - database
 dependencies:
   - { role: wheel, n: 1, testing: 'IN_DEP' }
   - { role: wheel, n: 2 }
