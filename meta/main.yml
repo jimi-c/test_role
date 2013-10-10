@@ -3,6 +3,7 @@ galaxy_info:
   author: James Cammarata
   company: AnsibleWorks, Inc.
   license: CC-BY
+  min_ansible_version: 1.4
 dependencies:
   - { role: wheel, n: 1, testing: 'IN_DEP' }
   - { role: wheel, n: 2 }
