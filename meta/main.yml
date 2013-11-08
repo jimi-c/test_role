@@ -17,7 +17,7 @@ galaxy_info:
     - precise
     - quantal
     - raring
-  tags:
+  categories:
   - web
   - database
 dependencies:
